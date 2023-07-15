@@ -8,5 +8,7 @@ add_subdirectory(src/library_template)
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(${PROJECT_NAME} PRIVATE -lstdc++)
-target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/src/library_template/liblibrary_template.a)
+
+link_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/src/library_template)
+target_link_libraries(${PROJECT_NAME} PRIVATE library_template)
 

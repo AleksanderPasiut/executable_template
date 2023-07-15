@@ -1,0 +1,3 @@
+[submodule "src/library_template"]
+	path = src/library_template
+	url = https://github.com/AleksanderPasiut/library_template

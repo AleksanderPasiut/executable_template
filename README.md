@@ -24,7 +24,7 @@ After performing the build, the example application can be launched by calling
 
 ### Debugging
 
-TODO
+The project supports debugging with the use of the `vscode` editor. In order to make it work, it is necessary to set `DBG` envionmental variable to contain the path to the debugger associated with the used compiler.
 
 
 
